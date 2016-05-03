@@ -1,0 +1,296 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Aplicacion Siete</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/diamadres.jpg','imagenes/felizdia.gif','imagenes/mami.jpg','imagenes/images.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Celebracion de Mayo</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+            <div>
+           
+           <div>
+           <img src="imagenes/descarga.jpg" width="50%" height="50%"></div>
+          </div>
+          </div>
+          
+          
+<div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>1 De Mayo Dia Del Trabajo</h2>
+      </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>4 De Mayo La Batalla De Atlixco</h2>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+         <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>5 De Mayo De Batalla De Puebla</h2>
+         </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>10 De Mayo Dia De Las Madres</h2>
+         </a>
+         </li> 
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>15 De Mayo Dia Del Maestro</h2>
+         </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>20 De Mayo Dia Del Psicologo</h2>
+         </a>
+         </li>
+         <li class="ui-first-child ui-last-child">
+         <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>23 De Mayo Dia Del Estudiante</h2>
+         </a>
+         </li>
+       </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+       <img src="imagenes/5-May.png" width="46" height="46">
+   </div>
+   <div>
+      <h4>Aplicacion siete</h4>
+      <h4>Angelica Jimenez Nieto</h4>
+   </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Dia Del Trabajador</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <div>
+        <p>El Día Internacional de los Trabajadores o Primero de Mayo es la fiesta por antonomasia del movimiento obrero mundial. Es una jornada que se ha utilizado habitualmente para realizar diferentes reivindicaciones sociales y laborales a favor de las clases trabajadoras por parte, fundamentalmente, de los movimientos socialistas, anarquistas y comunistas, entre otros.</p> 
+         <center><img src="imagenes/descargas.jpg"></center>
+         
+         <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+        <h1>Da clic para más información</h1>
+        <h3>Origen De celebracion</h3>
+Los hechos que dieron lugar a esta celebración están contextualizados en los albores de la Revolución Industrial en los Estados Unidos. A fines del siglo XIX Chicago era la segunda ciudad en número de habitantes de EE. UU. Del oeste y del sudeste llegaban cada año por ferrocarril miles de ganaderos desocupados, creando las primeras villas humildes que albergaban a cientos de miles de trabajadores. Además, estos centros urbanos acogieron a emigrantes llegados de todo el mundo a lo largo del siglo XIX.
+          <center><img src="imagenes/obreros_fabrica.jpg" width="50%" height="50%"></center>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div data-role="footer" data-theme="a">
+        <h4>Jimenez Nieto Angelica</h4>
+        </div>
+     </div>
+     </div>  
+     
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>La Batalla De Atlixco</h1>
+   </div>
+   <div data-role="content" align="center">
+      <div>
+      <div>
+        <p>La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.
+
+Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.</p>
+        <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+        <h1>Da clic para poder visualizar la imagen</h1>
+     <center><img src="imagenes/batalla.jpg" height="250" width="500"></center>
+     </div>
+     </div>
+     </div>
+      </div>
+      </div>
+      <div data-role="footer" data-theme="a">
+      <h4>Jimenez Nieto Angelica</h4>
+      </div>
+     </div>
+</div> 
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1>Batalla De Puebla</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+       <p>El Cinco de Mayo1 fecha de la conmemoración de la Batalla de Puebla. Marca la primera vez que el ejército mexicano pudo derrotar a una potencia extranjera mejor preparada, en este caso los franceses. La batalla tuvo lugar en la actual ciudad de Puebla de Zaragoza el 5 de mayo de 1862, entre los ejércitos de México y Francia.</p>
+ <div data-role="main" class="ui-content">
+        <div data-role="collapsible" data-content-theme="false">
+        <h1>Da clic para más información</h1>
+
+<p>Durante 1861, el país estaba en bancarrota debido a medio siglo de conflictos y guerras casi constantes. No podía hacer frente ni a las necesidades más urgentes, por lo que el 17 de julio de 1861, el presidente Benito Juárez decretó prórroga de dos años para pagar deuda externa a países europeos. En octubre de 1861, Francia, Inglaterra y España se suscribieron a la Convención de Londres y se comprometieron a enviar militares a México para reclamar sus derechos como acreedores por una deuda que ascendía alrededor de 80 millones de pesos.</p>
+
+<p>En abril de 1862 los franceses desembarcaron en el puerto de Veracruz, y emprendieron la campaña militar hacia el centro de la República. Después de varios ataques y cientos de muertos el 5 de mayo de 1862 fue la batalla victoriosa que tuvo lugar en los alrededores de una iglesia usada como fortaleza en Acultzingo, en el límite de los estados de Veracruz y Puebla. El héroe de la primera batalla de Puebla fue el general Ignacio Zaragoza al mando de casi 2000 soldados y 2700 campesinos usando machetes, rifles tipo "mausser" y lanzas llamadas "chinacas" de madera con punta de metal. Los franceses usaban pistolas, carabinas tipo winchester con punta de metal, bayonetas, cañones y ametralladoras de 15 kg y de 1.50 mt. longitud.</p>
+
+"Las armas nacionales se han cubierto de gloria. Las tropas francesas se portaron con valor en el combate y su jefe con soberbia, necedad y torpeza."
+<center><img src="imagenes/5demayo.jpg" height="250" width="500"></center>
+
+</div>
+</div>
+    </div>
+    </div>
+  <div data-role="footer" data-theme="a">
+  <h4>Jimenez Nieto Angelica</h4>
+    </div>
+   </div>
+</div>   
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Celebracion Del Dia De Las Mdares </h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/diamadres.jpg',1)"><img src="imagenes/descarga.jpg" width="275" height="183" id="Image21"></a>
+<div data-role="main" class="ui-content">
+<p>Te Quiero Por Ser La Mejor Mamá Del Mundo</p>
+        <div data-role="collapsible" data-content-theme="false">
+        <h1>clic para visualizar mas imagenes</h1>
+        
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/felizdia.gif',1)"><img src="imagenes/dia.jpg" width="275" height="183" id="Image22"></a>
+<p>Por Ser La Mejor</p>
+ 
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/images.jpg',1)"><img src="imagenes/felizdia.jpg" width="275" height="183" id="Image24"> 
+ <p>LOve You Mom ;)</p>
+ </a> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/mami.jpg',1)"><img src="imagenes/diamadres.jpg" width="275" height="183" id="Image26"></a>
+ <p>FOr MY Mom :)</p>
+ </div>
+ </div>      
+</div>
+</div>
+<div data-role="footer" data-theme="a">
+<h4>Jimenez Nieto Angelica</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dia Del Maestro</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>El Día del maestro es una festividad en la que se conmemora a las personas que hacen de la enseñanza su trabajo habitual, como maestros y profesores.
+La fecha de esta celebración varía entre los diferentes paises, si bien la UNESCO sugiere hacerlo el 5 de octubre, práctica que ha sido seguida por numerosas naciones.</p>
+  <center><img src="imagenes/resize.jpg" height="183" width="276"></center>
+  <p>En 1943, la Primera Conferencia de Ministros y Directores de Educación de las Repúblicas Americanas, celebrada en Panamá, propuso también una fecha unificada para todo el continente; eligiéndose el 11 de septiembre, aniversario del fallecimiento del estadista y educador argentino Domingo Faustino Sarmiento.1 Dicha fecha ha continuado conmemorándose en la Argentina, pero se ha abandonado en el resto del continente.2
+</p>
+   <center><img src="imagenes/diadel.jpg" height="183" width="276"></center>
+   <p>
+  En 1918, se llevó a cabo en México la primera conmemoración del Día el Maestro, el decreto fue firmado por el presidente Venustiano Carranza.
+   </p>
+ <center><img src="imagenes/48.jpg" height="183" width="276"></center>
+ 
+</div>
+</div>
+<div data-role="footer" data-theme="a">
+<h4>Jimenez Nieto Angelica</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dia Del Psicologo</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>
+Esta fecha hace referencia al Primer Encuentro Nacional de Psicólogos y Estudiantes de Psicología que se realizara en la ciudad de Córdoba del 11 al 13 de octubre de 1974. Fue convocado por la Confederación de Psicólogos de República Argentina (COPRA). Esta organización, primera manifestación orgánica de los profesionales psicólogos, había sido constituida a fines del año anterior y estaba integrada en sus comienzos por representantes de las Asociaciones de Psicólogos de Capital Federal, Córdoba, La Plata y San Luis y miembros provenientes de otros puntos del país donde aún se encontraban en proceso de constitución las respectivas organizaciones gremiales. La primer Comisión Directiva estuvo presidida por la Lic. Elena ROBERTO e integrada por los Lic. Delfín GIALLUCCA, Lic. Oscar STRADA, Lic. Aníbal LENTINI, Lic. Edgardo MUSSO, Lic. Horacio SANTÁNGELO. </p>
+<img src="imagenes/psicologo.jpg" width="300" height="326">
+<p>
+Desde hace 17 años se celebra el Día Nacional del Psicólogo en México, este día tiene su origen dada la relevancia académica que cobró este campo del conocimiento en la Universidad Nacional Autónoma de México (UNAM)
+Entre otras razones para establecer este día, se debe a que la UNAM imparte la carrera de Psicología desde 1950, siendo este el primer programa en México, por lo cual se convirtió en una fecha especial para la Psicología.</p>
+<img src="imagenes/felicidades.jpg" width="300" height="326">
+
+<p>
+La psicología es la ciencia que estudia el comportamiento del ser humano así como la conducta y los procesos mentales. Es decir, estudia los procesos mentales en sus tres dimensiones:
+Del pensamiento: cognitiva.
+Del afecto: emociones.
+Del comportamiento: conductas.</p>
+<img src="imagenes/psicologos.jpg" width="300" height="326">
+
+</div>
+</div>
+<div data-role="footer" data-theme="a">
+<h4>Jimenez Nieto Angelica</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dia Del Estudiante</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p>El día del estudiante es una fecha anual que se conmemora en varios países; aunque la efeméride exacta que se observa difiere en cada país, esta celebración suele estar relacionada con la juventud y la primavera.</p>
+<img src="imagenes/hola.jpg" height="264" width="200">
+<img src="imagenes/estudiante.jpg" height="264" width="200">
+
+<p>
+Argentina.
+Se conmemora el 21 de septiembre y si bien coincide con el día de la primavera, la verdadera razón de la elección de esa fecha es que en ese día de 1888 llegaron a Buenos Aires los restos repatriados del prócer Domingo Faustino Sarmiento (15 de febrero de 1811 – 11 de septiembre de 1888), quien durante su presidencia fue responsable de la construcción de más de 801 escuelas.1 2 Este día los alumnos de los secundarios no concurren a clases.</p>
+<img src="imagenes/imagen.jpg" height="264" width="200">
+<p>Chile.
+El 11 de mayo se celebra el Día del Alumno,4 establecido mediante el decreto 147 de 1992 del Ministerio de Educación;5 este día recuerda la publicación del decreto supremo 524 de 1990 del Ministerio del Interior,6 7 que aprobó una nueva versión del reglamento que permite a los estudiantes secundarios formar centros de alumnos.
+</p>
+<img src="imagenes/dia-dle-alumno.jpg" height="264" width="200">
+
+</div>
+</div>
+<div data-role="footer" data-theme="a">
+<h4>Jimenez Nieto Angelica</h4>
+</div>
+</div>
+</div>
+                                                 
+</body>
+</html>
